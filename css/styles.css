@@ -1,12 +1,5 @@
-.col-md-8,
-.col-md-4{
-  border: 2px solid black;
-}
-
-.kittens {
-  margin-left: 70%;
-}
-
-.boxModel{
-  margin-left: 22%;
+label {
+  font-size: 25px;
+  font-weight: normal;
+  margin-top: 35px;
 }
