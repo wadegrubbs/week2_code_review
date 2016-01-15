@@ -12,38 +12,49 @@
         <h2>I won't pack you bags for you, but I love giving advice.</h2>
         <h3>Just a few questions for you...</h3>
       </div>
-      <form id="aboutYou">
 
+      <form id="aboutYou">
         <label for="heat">Some like it hot. Do you?</label>
         <select id="answer1">
-          <option value="yes">Yes!</option>
-          <option value="no">Ughh...</option>
+          <option value="1">Fire it up!</option>
+          <option value="2">Not bothered</option>
+          <option value="3">Ughh...</option>
         </select>
         <br>
-        <label for="guns">I'll bet you have loads of money to burn. True?</label>
+        <label for="loot">I'll bet you have loads of money to burn. True?</label>
         <select id="answer2">
-          <option value="yes">Loaded</option>
-          <option value="no">Skint</option>
+          <option value="1">Loaded</option>
+          <option value="2">Not bankrupt yet</option>
+          <option value="3">Skint</option>
         </select>
         <br>
-        <label for="guns">Are the kids coming along?</label>
+        <label for="kids">Are the kids coming along?</label>
         <select id="answer3">
-          <option value="yes">Yes!</option>
-          <option value="no">What kids?</option>
+          <option value="1">The little angels will be coming</option>
+          <option value="2">Checking Grandma's schedule now</option>
+          <option value="3">What kids?</option>
         </select>
         <br>
-        <label for="guns">Are you a city mouse or a country mouse?</label>
-        <select id="answer1">
-          <option value="yes">City</option>
-          <option value="no">Keepin' it country</option>
+        <label for="cMouse">Are you a city mouse or a country mouse?</label>
+        <select id="answer4">
+          <option value="1">City</option>
+          <option value="2">I dig everything</option>
+          <option value="3">Keepin' it country</option>
         </select>
         <br>
-        <label for="guns">Are you up for exploration or relaxation?</label>
-        <select id="answer1">
-          <option value="yes">Let's go!</option>
-          <option value="no">Let's nap</option>
+        <label for="goNap">Are you up for exploration or relaxation?</label>
+        <select id="answer5">
+          <option value="1">Let's go!</option>
+          <option value="2">Let's think about it</option>
+          <option value="3">Let's nap</option>
         </select>
         <br>
+        <button type="submit" class="btn">Get lost</button>
+        <br>
+      </form>
+
+      <div id="match">
+        <p>Start packing for <span id="destination"></span>!</p>
     </div>
   <script src="js/jquery-1.12.0.js"></script>
   <script src="js/scripts.js"></script>
