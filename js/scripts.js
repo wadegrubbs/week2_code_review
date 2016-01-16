@@ -1,5 +1,5 @@
 $(function() {
-
+$("div#match").hide();
   $("form#aboutYou").submit(function(event) {
 
   var count = 0;
@@ -54,18 +54,19 @@ $(function() {
             var count = count + 3;
           }
 
-              $("div#match").show();
+//              $("div#match").show();
 
               if (count < 6) {
-                 $("span#destination").text("London");
-               }
+                 window.open("london.html");
+
+                }
 
                if (count > 5 && count < 11) {
-                 $("span#destination").text("Yellowstone")
+                 window.open("yellowstone.html");
                }
 
                if (count > 10) {
-                 $("span#destination").text("Monaco")
+                 window.open("monaco.html");
                }
 
     console.log(count);

@@ -2,7 +2,7 @@
 ###By Wade Grubbs
 
 ##Description
-
+This page is call Vacation Finder and it will tell you what to do with your summer vacation based on some of your likes and dislikes. Start packing!
 
 ##Technologies
 * Atom
@@ -11,6 +11,7 @@
 * HTML/CSS
 * Javascript
 * Jquery
+* personal frustration
 
 ##Legal
-2016 Wade Grubbs
+Copywrite 2016 Wade Grubbs MIT license thingy
